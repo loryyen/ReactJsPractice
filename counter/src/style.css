@@ -1,0 +1,16 @@
+.image{
+    display:block;
+}
+
+.hide{
+    display:none;
+}
+
+.bar-outer{
+    border:1px solid gray;
+    width:500px;
+    height:20px;
+}
+.bar-inner{
+    background-color: red;
+}
