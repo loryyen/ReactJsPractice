@@ -34,6 +34,10 @@ export default class Counter extends Component {
     //this.setState(state=>({
     //  count:state.count+1
     //}));
+
+    // this.setState({
+    //   count:this.state.count+1
+    // });    
     this.setState(
     {
       count:count+1
