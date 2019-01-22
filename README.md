@@ -22,19 +22,19 @@
   *餘參數代表是將"不確定的傳入參數值們"在函式中轉變成為一個陣列來進行運算
   function sum(…numbers) {
     const result = 0
-
     numbers.forEach(function (number) {
       result += number
     })
-
     return result
   }
   sum(1) // 1
   sum(1, 2, 3, 4, 5) // 15
   
   *解構賦值(Destructuring Assignment)
-  基本用法:
-  const [a, b] = [1, 2] //a=1, b=2
-  交換值:
-  const a = 1, b = 2;
-  [b, a] = [a, b] //a=2, b=1
+    基本用法:
+      const [a, b] = [1, 2] //a=1, b=2
+    交換值:
+      const a = 1, b = 2;
+      [b, a] = [a, b] //a=2, b=1
+    從物件解構賦值(Object destructuring):
+      const { prop, prop2 } = { prop: 5, prop2: 10 } //prop = 5, prop2=10
