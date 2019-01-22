@@ -76,3 +76,8 @@
   *React快速指令*
 3. Packages
 * Create React App
+    <pre><code>
+    npx create-react-app my-app
+    cd my-app
+    npm start
+    </code></pre>
