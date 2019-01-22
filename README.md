@@ -38,3 +38,4 @@
       [b, a] = [a, b] //a=2, b=1
     從物件解構賦值(Object destructuring):
       const { prop, prop2 } = { prop: 5, prop2: 10 } //prop = 5, prop2=10
+  *模組系統
