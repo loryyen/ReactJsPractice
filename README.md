@@ -3,6 +3,7 @@
 *   箭頭函式(Arrow Functions)  
     <pre><code>const func = (x) => x + 1</code></pre>
     等同於  
+    
     const func = function (x) { return x + 1 }
   
 * 綁定this值  
