@@ -71,9 +71,12 @@
   <pre><code>
   import aFunction, {aString} from './lib.js'
   </code></pre>
+  https://eyesofkids.gitbooks.io/javascript-start-from-es6/content/
+  
 2. VS Code推薦安裝
 * Reactjs snippets
   *React快速指令*
+  
 3. Packages
 * Create React App
     <pre><code>
@@ -81,14 +84,18 @@
     cd my-app
     npm start
     </code></pre>
-* axios
+    
+* axios  
+ *Promise based HTTP client for the browser and node.js*
  <pre><code>
     $ npm install axios
  </code></pre>
-* ReactRouter
+ 
+* ReactRouter  
    <pre><code>
     npm install react-router
     yarn add react-router
   </code></pre>
   https://reacttraining.com/react-router/core/guides/quick-start
 
+* postcss
