@@ -72,6 +72,7 @@
   import aFunction, {aString} from './lib.js'
   </code></pre>
 2. VS Code推薦安裝
-* VS Code Reactjs snippets
+* Reactjs snippets
   *React快速指令*
-3. Create React App
+3. Packages
+* Create React App
