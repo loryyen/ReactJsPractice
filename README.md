@@ -40,19 +40,34 @@
    </code></pre>
 * 解構賦值(Destructuring Assignment)  
   基本用法:  
+  
+ <pre><code>
       const [a, b] = [1, 2] //a=1, b=2
+ </code></pre>
   交換值:  
+  
+  <pre><code>
       const a = 1, b = 2;
       [b, a] = [a, b] //a=2, b=1
+  </code></pre>
   從物件解構賦值(Object destructuring):  
+  
+  <pre><code>
       const { prop, prop2 } = { prop: 5, prop2: 10 } //prop = 5, prop2=10
-
+  </code></pre>
+  
 * 模組系統  
   輸出  
+  
+  <pre><code>
   export const aString = 'test'
   function aFunction(param){
     return param * param
   }
   export default aFunction
+  </code></pre>
+  
   輸入  
+  <pre><code>
   import aFunction, {aString} from './lib.js'
+  </code></pre>
