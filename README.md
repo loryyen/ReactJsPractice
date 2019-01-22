@@ -1,9 +1,9 @@
 # ReactPractice
 1. ES6  
 *   箭頭函式(Arrow Functions)  
-        const func = (x) => x + 1
+    const func = (x) => x + 1
     等同於  
-        const func = function (x) { return x + 1 }
+    const func = function (x) { return x + 1 }
   
 * 綁定this值  
   var self = this或.bind(this)
