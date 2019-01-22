@@ -33,3 +33,8 @@
   sum(1, 2, 3, 4, 5) // 15
   
   *解構賦值(Destructuring Assignment)
+  //基本用法
+  const [a, b] = [1, 2] //a=1, b=2
+  // 交換值
+  const a = 1, b = 2;
+  [b, a] = [a, b] //a=2, b=1
