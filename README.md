@@ -1,5 +1,5 @@
 # ReactPractice
-1. ES6
+1. ES6  
 *   箭頭函式(Arrow Functions)
         const func = (x) => x + 1
     等同於
