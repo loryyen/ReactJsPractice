@@ -8,6 +8,7 @@
 * 綁定this值  
   var self = this或.bind(this)
   可以改用箭頭函式:
+  
   const obj = {a:1}
   function func(){
     setTimeout( () => { console.log(this) }, 2000)
