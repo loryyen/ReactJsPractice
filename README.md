@@ -102,9 +102,9 @@
 
 
 4. 參考  
-+ [騰訊雲開法者手冊]: https://cloud.tencent.com/developer/devdocs
+[騰訊雲開法者手冊] [1]
 
-+ [ES6手冊]: https://eyesofkids.gitbooks.io/javascript-start-from-es6/content/
+[ES6手冊] []
 
 I get 10 times more traffic from [Google] [1] than from
 [Yahoo] [2] or [MSN] [3].
