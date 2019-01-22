@@ -82,7 +82,13 @@
     npm start
     </code></pre>
 * axios
- 
+ <pre><code>
     $ npm install axios
-  
+ </code></pre>
+* ReactRouter
+   <pre><code>
+    npm install react-router
+    yarn add react-router
+  </code></pre>
+  https://reacttraining.com/react-router/core/guides/quick-start
 
