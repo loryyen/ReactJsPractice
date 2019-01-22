@@ -99,3 +99,11 @@
   https://reacttraining.com/react-router/core/guides/quick-start
 
 * postcss
+
+
+4. 參考
+*騰訊雲開法者手冊*
+https://cloud.tencent.com/developer/devdocs
+
+*ES6手冊*
+https://eyesofkids.gitbooks.io/javascript-start-from-es6/content/
