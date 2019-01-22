@@ -1,7 +1,7 @@
 # ReactPractice
 1. ES6  
 *   箭頭函式(Arrow Functions)  
-    const func = (x) => x + 1
+    <pre><code>const func = (x) => x + 1</code></pre>
     等同於  
     const func = function (x) { return x + 1 }
   
