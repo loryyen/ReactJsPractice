@@ -26,6 +26,21 @@
   const arr2 = [...arr]
   </code></pre>
   
+* 展開運算符用來複製物件  
+  <pre><code>
+  let obj1 = { name: 'foo', x: 10 };
+  let obj2 = { name: 'test', y: 20 };
+
+    // 複製物件
+    let clonedObj = { ...obj1 };
+    console.log(clonedObj);  // { name: 'foo', x: 10 }
+
+    // 合併串聯多個物件
+    // 與陣列不同的是: 有相同屬性名的，合併後只會使用最後一個物件的內容值
+    var mergedObj = { ...obj1, ...obj2 };
+    console.log(mergedObj);  // { name: 'test', x: 10, y: 20 }
+  </code></pre>
+  
 * 餘參數代表是將"不確定的傳入參數值們"在函式中轉變成為一個陣列來進行運算  
     <pre><code>
   function sum(…numbers) {
