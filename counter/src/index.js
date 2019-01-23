@@ -8,9 +8,10 @@ import Demo from './Demo';
 import Progress from './Progress';
 import Counter2 from './Counter2';
 import Radio from './Radio';
+import Weather from './Weather';
 //render(<Counter initCount={10}></Counter>,document.getElementById("root"))
 //render(<Input></Input>,document.getElementById("root"));
 //render(<Parent/>,document.getElementById("root"));
 //render(<Progress></Progress>,document.getElementById("root"));
 
-render(<Radio></Radio>,document.getElementById("root"));
+render(<Weather></Weather>,document.getElementById("root"));
