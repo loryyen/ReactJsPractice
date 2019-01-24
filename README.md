@@ -118,7 +118,7 @@
 
 4. 參考  
 [騰訊雲開法者手冊] [1]  
-[ES6手冊] [2]
+[ES6手冊] [2]  
 [ReactJs生命週期] [3]
 
   [1]: https://cloud.tencent.com/developer/devdocs        "騰訊雲開法者手冊"
