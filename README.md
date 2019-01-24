@@ -119,6 +119,8 @@
 4. 參考  
 [騰訊雲開法者手冊] [1]  
 [ES6手冊] [2]
+[ReactJs生命週期] [3]
 
   [1]: https://cloud.tencent.com/developer/devdocs        "騰訊雲開法者手冊"
   [2]: https://eyesofkids.gitbooks.io/javascript-start-from-es6/content/  "ES6手冊"
+  [3]: http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/ "ReactJs生命週期"
