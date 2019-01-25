@@ -14,5 +14,5 @@ import RouteExample from './RouteExample';
 //render(<Input></Input>,document.getElementById("root"));
 //render(<Parent/>,document.getElementById("root"));
 //render(<Progress></Progress>,document.getElementById("root"));
-//render(<Weather></Weather>, document.getElementById("root"));
- render(<RouteExample></RouteExample>,document.getElementById("root"));
+render(<Weather></Weather>, document.getElementById("root"));
+// render(<RouteExample></RouteExample>,document.getElementById("root"));

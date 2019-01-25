@@ -15,20 +15,37 @@ export default class Weather extends Component {
   // }
 
   componentDidMount() {
-    const response = axios.get('https://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=e6831708-02b4-4ef8-98fa-4b4ce53459d9')
-      .then(res => {
-        this.setState({
-          data: res.data,
-          weather: res.data.result.results,
-        });
-      })
-      .catch(function (error) {
-        // handle error
-        console.log(error);
-      })
-      .then(function () {
-        // always executed
-      });
+    this.getData();
+    // const response = axios.get('https://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=e6831708-02b4-4ef8-98fa-4b4ce53459d9')
+    //   .then(res => {
+    //     this.setState({
+    //       data: res.data,
+    //       weather: res.data.result.results,
+    //     });
+    //   })
+    //   .catch(function (error) {
+    //     // handle error
+    //     console.log(error);
+    //   })
+    //   .then(function () {
+    //     // always executed
+    //   });
+  }
+
+  getData = async () => {
+    // const response = await fetch('https://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=e6831708-02b4-4ef8-98fa-4b4ce53459d9');
+    // const res = await response.json();
+    // this.setState({
+    //   data: res.result,
+    //   weather: res.result.results,
+    // });
+
+    const response2 = await axios.get('https://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=e6831708-02b4-4ef8-98fa-4b4ce53459d9');
+    this.setState({
+      data: response2.data,
+      weather: response2.data.result.results,
+    });
+
   }
 
   renderWeathers = () => {
