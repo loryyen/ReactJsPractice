@@ -1,15 +1,15 @@
-import React, { Component,PureComponent } from 'react'
+import React, { Component, PureComponent } from 'react'
 
 //class component
 export default class ProgressBar extends Component {
   render() {
-    const {value}=this.props;
+    const { value } = this.props;
     return (
       <div className="bar-outer">
         <div className="bar-inner"
-        style={{width:`${value}%`}}
+          style={{ width: `${value}%` }}
         >
-        {value}%
+          {value}%
         </div>
       </div>
     )
@@ -33,7 +33,7 @@ export default class ProgressBar extends Component {
 //       )
 //     }
 //   }
-  
+
 
 // Stateless functional component
 //const ProgressBar = (props)=> {
