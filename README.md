@@ -117,8 +117,7 @@
 
 * Redux
   <pre><code>
-  npm install --save react-redux
-  yarn add react-redux
+   yarn add redux react-redux react-router-dom react-router-redux@next redux-thunk history
   </code></pre>
   
 4. 參考  
