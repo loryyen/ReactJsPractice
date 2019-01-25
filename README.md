@@ -115,7 +115,12 @@
 
 * postcss
 
-
+* Redux
+  <pre><code>
+  npm install --save react-redux
+  yarn add react-redux
+  </code></pre>
+  
 4. 參考  
 [騰訊雲開法者手冊] [1]  
 [ES6手冊] [2]  
