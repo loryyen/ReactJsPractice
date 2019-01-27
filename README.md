@@ -142,8 +142,18 @@
         [DO] 回傳一個jsx元素  
         [DONOT] 不要使用this.setState==>會導致毀滅性的結果  
         [DONOT] 不要呼叫ajax函式  
-    5.3 ComponentDidMount
-        
+    5.3 ComponentDidMount  
+        [DO] 呼叫ajax函式 
+        <pre><code>
+        componentDidMount(){
+            fetchList();
+        }
+        fetchList= async()=>{
+            const response = await feach("htttp://.....");
+            const data= await response.json();
+            this.setState({item:data});
+        }
+        </code></pre>
         
         
     
