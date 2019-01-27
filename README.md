@@ -134,9 +134,17 @@
         [Do]spuer(props); //呼叫繼承的父類別  
         [Suggest]設定初始化state EX: this.state={count:0}  
         [Suggest]綁定自定義函式 EX: this.hancleClick=this.handleClick.bind(this);   
-        [DONOT] setState  
-        [DONOT] 指定props到State裡面 ，除非想達到上層傳來的props指生效一次  
-        [DONOT] 呼叫ajax函式  
+        [DONOT] 不要setState  
+        [DONOT] 不要指定props到State裡面 ，除非想達到上層傳來的props指生效一次  
+        [DONOT] 不要呼叫ajax函式  
+    5.2 Render渲染  
+        [DO] 讀取this.props/this.state  
+        [DO] 回傳一個jsx元素  
+        [DONOT] 不要使用this.setState==>會導致毀滅性的結果  
+        [DONOT] 不要呼叫ajax函式  
+    5.3 ComponentDidMount
+        
+        
         
     
 
