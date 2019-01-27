@@ -143,6 +143,7 @@
         [DONOT] 不要使用this.setState==>會導致毀滅性的結果  
         [DONOT] 不要呼叫ajax函式  
     5.3 ComponentDidMount  
+        畫面第一次載入呼叫此函式
         [DO] 呼叫ajax函式 
         <pre><code>
         componentDidMount(){
@@ -164,6 +165,28 @@
         render(){
             return <canvas ref={this.ref}/>;
         }        
+        </code></pre>
+    5.4 ComponentDidUpdate
+        組件屬性更新時就會呼叫此函式
+        <pre><code>
+        state={
+            userData:{},
+        }
+        componentDidMount(){
+            this.fetchUser(this.props.userID);
+        }
+        componentDidUpdate(prevProps,pervState){
+            this.fetchUser(this.props.userID);
+        }
+        fetchUser =(userID)=>{
+            fetch(`http://xxxxxx/$(userID)`)
+            .then(response=>response.json)
+            .then((data)=>{
+                this.setStats({
+                    userData:data,
+                })
+            });
+        }
         </code></pre>
         
         
