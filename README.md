@@ -167,7 +167,7 @@
         }        
         </code></pre>
     5.4 ComponentDidUpdate
-        組件屬性更新時就會呼叫此函式
+        組件props/state更新時就會呼叫此函式
         <pre><code>
         state={
             userData:{},
@@ -175,8 +175,11 @@
         componentDidMount(){
             this.fetchUser(this.props.userID);
         }
-        componentDidUpdate(prevProps,pervState){
-            this.fetchUser(this.props.userID);
+        componentDidUpdate(prevProps,pervState,snapshot){
+            //condition !!!
+            if(prevProps.userID!==this.props.ID){
+                this.fetchUser(this.props.userID);
+            }
         }
         fetchUser =(userID)=>{
             fetch(`http://xxxxxx/$(userID)`)
