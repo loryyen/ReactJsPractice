@@ -128,3 +128,12 @@
   [1]: https://cloud.tencent.com/developer/devdocs        "騰訊雲開法者手冊"
   [2]: https://eyesofkids.gitbooks.io/javascript-start-from-es6/content/  "ES6手冊"
   [3]: http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/ "ReactJs生命週期"
+  
+5.  生命週期  
+    5.1 Constructor  
+        spuer(props); //呼叫繼承的父類別
+        設定初始化state EX: this.state={count:0}
+        綁定自定義函式 EX: this.hancleClick=this.handleClick.bind(this);
+        
+    
+
