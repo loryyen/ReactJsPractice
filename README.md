@@ -146,13 +146,24 @@
         [DO] 呼叫ajax函式 
         <pre><code>
         componentDidMount(){
-            fetchList();
+            this.fetchList();
         }
         fetchList= async()=>{
             const response = await feach("htttp://.....");
             const data= await response.json();
             this.setState({item:data});
         }
+        </code></pre>
+        <pre><code>
+        ref=createRef();
+        componentDidMount(){
+            const ctx=this.ref.current.get.context('2d');
+            ctx.fillStyle='red';
+            ctx.fillRect(10,10,30,30);
+        }
+        render(){
+            return <canvas ref={this.ref}/>;
+        }        
         </code></pre>
         
         
