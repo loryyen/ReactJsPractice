@@ -131,9 +131,12 @@
   
 5.  生命週期  
     5.1 Constructor  
-        spuer(props); //呼叫繼承的父類別  
-        設定初始化state EX: this.state={count:0}  
-        綁定自定義函式 EX: this.hancleClick=this.handleClick.bind(this);  
+        [Do]spuer(props); //呼叫繼承的父類別  
+        [Suggest]設定初始化state EX: this.state={count:0}  
+        [Suggest]綁定自定義函式 EX: this.hancleClick=this.handleClick.bind(this);  
+        [DONOT] setState
+        [DONOT] 指定props到State裡面 ，除非想達到上層傳來的props指生效一次
+        [DONOT] 呼叫ajax函式
         
     
 
