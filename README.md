@@ -191,6 +191,10 @@
             });
         }
         </code></pre>
+    5.5  ComponentWillUnmount
+        取消監聽事件/取消ajax/取消timeout
+        window.removeEventListener
+        clearTimeout
         
         
     
