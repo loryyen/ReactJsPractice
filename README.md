@@ -195,7 +195,8 @@
         取消監聽事件/取消ajax/取消timeout
         window.removeEventListener
         clearTimeout
-        
-        
+6. Redux
+   https://chentsulin.github.io/redux/index.html
     
+    redux-observable
 

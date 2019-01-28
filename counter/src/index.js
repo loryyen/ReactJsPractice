@@ -14,9 +14,10 @@ import ReactDom from 'react-dom'
 import { createStore } from "redux";
 import { Provider } from 'react-redux'
 import Reducer from "./reducer";
-import memo from './Memo'
+import Memo from './Memo'
 
-
+// 建立一個 Redux store 來掌管你的應用程式的 state。
+// 它的 API 是 { subscribe, dispatch, getState }。
 const store = createStore(Reducer, window.devToolsExtension && window.devToolsExtension());
 
 //render(<Counter initCount={10}></Counter>,document.getElementById("root"))
@@ -28,7 +29,7 @@ const store = createStore(Reducer, window.devToolsExtension && window.devToolsEx
 const root = document.getElementById("root");
 ReactDom.render(
     <Provider store={store}>
-        <memo></memo>
+        <Memo></Memo>
     </Provider>,
     root
 )
