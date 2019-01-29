@@ -198,5 +198,6 @@
 6. Redux
    https://chentsulin.github.io/redux/index.html
     
-    redux-observable
+   redux-observable
 
+https://hk.saowen.com/a/b28346768ecf6210bec08ed01e6814f15e040e223ef3e2558cb281d9fb6a261f
