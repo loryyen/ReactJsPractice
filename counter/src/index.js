@@ -14,7 +14,8 @@ import ReactDom from 'react-dom'
 import { createStore } from "redux";
 import { Provider } from 'react-redux'
 import Reducer from "./reducer";
-import Memo from './Memo'
+import Memo from './Memo';
+import App from './app';
 
 // 建立一個 Redux store 來掌管你的應用程式的 state。
 // 它的 API 是 { subscribe, dispatch, getState }。
@@ -27,9 +28,11 @@ const store = createStore(Reducer, window.devToolsExtension && window.devToolsEx
 //render(<Weather></Weather>, document.getElementById("root"));
 // render(<RouteExample></RouteExample>,document.getElementById("root"));
 const root = document.getElementById("root");
-ReactDom.render(
-    <Provider store={store}>
-        <Memo></Memo>
-    </Provider>,
-    root
-)
+// ReactDom.render(
+//     <Provider store={store}>
+//         <Memo></Memo>
+//     </Provider>,
+//     root
+// )
+
+ReactDom.render(<App></App>, root)
