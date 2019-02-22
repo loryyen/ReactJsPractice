@@ -124,10 +124,12 @@
 [騰訊雲開法者手冊] [1]  
 [ES6手冊] [2]  
 [ReactJs生命週期] [3]
+[webpack4全家桶] [4]
 
   [1]: https://cloud.tencent.com/developer/devdocs        "騰訊雲開法者手冊"
   [2]: https://eyesofkids.gitbooks.io/javascript-start-from-es6/content/  "ES6手冊"
   [3]: http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/ "ReactJs生命週期"
+  [4]:https://segmentfault.com/a/1190000017048871 "webpack4全家桶"
   
 5.  生命週期  
     5.1 Constructor  
@@ -200,4 +202,4 @@
     
    redux-observable
 
-https://hk.saowen.com/a/b28346768ecf6210bec08ed01e6814f15e040e223ef3e2558cb281d9fb6a261f
+
