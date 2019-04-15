@@ -202,5 +202,9 @@
     
    redux-observable
 
-
+如何在React中使用async/await 
 https://juejin.im/post/5b52a840f265da0fb0186cab
+
+MAC:  
+MAC好用的終端機  
+https://andy6804tw.github.io/2018/01/01/iterm2-zsh-intro/#1-%E5%AE%98%E7%B6%B2%E4%B8%8B%E8%BC%89%E5%AE%89%E8%A3%9D
