@@ -1,11 +1,11 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-//Example1
+
 import Promotion from "./promotion";
 import CreditCards from "./creditCards";
 import withOpen from "./hoc/withOpen";
-//Example2
+
 import List from "./List";
 import withNames from "./hoc/withNames";
 import withTodo from "./hoc/withTodo";
